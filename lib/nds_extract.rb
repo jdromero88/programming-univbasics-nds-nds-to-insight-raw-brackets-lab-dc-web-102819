@@ -15,7 +15,7 @@ def directors_totals(nds)
     pp movies[i][:title]
     i += 1
   end
-
+  pp directors_database[0][:movies][1][:worldwide_gross]
   #grand_total = 0
   #result = {}
 
