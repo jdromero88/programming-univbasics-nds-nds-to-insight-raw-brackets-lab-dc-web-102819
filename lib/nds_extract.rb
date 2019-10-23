@@ -16,15 +16,17 @@ def directors_totals(nds)
   val1 = directors_database[1][:movies][1][:worldwide_gross]
   sum = val + val1
   print sum
-  i = 0
-  name = []
-  while i < directors_database.count do
-    name[i] = directors_database[i][:name]
-    puts name[i]
-    i += 1
-  end
   #grand_total = 0
   #result = {}
+  d_i = 0 #directors index
+  d_n = [] #directors name
+  while d_i < nds.count do
+    d_n = nds[d_i][:name]
+    puts name[d_i]
+    
+    i += 1
+  end
+
 
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
