@@ -11,7 +11,7 @@ def directors_totals(nds)
   #puts directors_database[0][:movies]
   #pp directors_database[0][:name]
   #pp directors_database[0][:movies][1][:worldwide_gross]
-  pp directors_database[0][:movies]
+  pp directors_database[0]
   val = directors_database[0][:movies][0][:worldwide_gross]
   val1 = directors_database[1][:movies][1][:worldwide_gross]
   sum = val + val1
