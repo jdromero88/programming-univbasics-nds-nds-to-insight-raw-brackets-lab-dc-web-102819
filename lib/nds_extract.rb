@@ -12,7 +12,7 @@ def directors_totals(nds)
   grand_total = 0
   result = {
   }
-  
+
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
