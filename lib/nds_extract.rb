@@ -17,8 +17,8 @@ def directors_totals(nds)
   sum = val + val1
   print sum
   i = 0
-  while i < movies.count do
-    pp movies[i][:title]
+  while i < directors_database.count do
+
     i += 1
   end
   #grand_total = 0
