@@ -9,12 +9,7 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   pp nds
   #puts directors_database[0][:movies]
-  directors_name = directors_database[0][:name]
-  i = 0
-  while i < movies.count do
-    pp movies[i][:title]
-    i += 1
-  end
+
   pp directors_database[0][:movies][1][:worldwide_gross]
   pp directors_database[1][:name][:movies][1][:worldwide_gross]
   #grand_total = 0
