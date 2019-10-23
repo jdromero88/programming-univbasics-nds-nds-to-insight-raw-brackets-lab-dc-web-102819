@@ -9,8 +9,8 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   #pp nds
   #puts directors_database[0][:movies]
-  algo = directors_database[0][:movies][:worldwide_gross]
-  puts algo
+  pp directors_database[0][:movies][:worldwide_gross]
+  
   grand_total = 0
   result = {
   }
