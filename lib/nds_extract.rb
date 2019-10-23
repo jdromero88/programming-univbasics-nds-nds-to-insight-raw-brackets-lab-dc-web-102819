@@ -34,7 +34,7 @@ def directors_totals(nds)
     end
     d_i += 1
   end
-  restult
+  result
   #
   #
   # Be sure to return the result at the end!
