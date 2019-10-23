@@ -18,6 +18,7 @@ def directors_totals(nds)
   print sum
   i = 0
   while i < directors_database.count do
+    name[i] = directors_database[i]
     i += 1
   end
   #grand_total = 0
