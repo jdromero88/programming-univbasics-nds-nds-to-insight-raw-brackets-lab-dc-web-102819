@@ -17,6 +17,7 @@ def directors_totals(nds)
   sum = val + val1
   print sum
   i = 0
+  name = []
   while i < directors_database.count do
     name[i] = directors_database[i][:name]
     puts name[i]
