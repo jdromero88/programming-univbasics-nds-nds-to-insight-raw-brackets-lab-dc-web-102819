@@ -8,9 +8,11 @@ def directors_totals(nds)
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   #pp nds
-  puts directors_database[0]
+  puts directors_database[:name]
+  grand_total = 0
   result = {
   }
+  while
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
   # and total up all the
