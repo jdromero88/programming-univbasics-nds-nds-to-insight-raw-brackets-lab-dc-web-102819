@@ -10,7 +10,7 @@ def directors_totals(nds)
   #pp nds
   #puts directors_database[0][:movies]
   pp directors_database[0][:movies][:worldwide_gross]
-  
+
   grand_total = 0
   result = {
   }
