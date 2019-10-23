@@ -23,7 +23,7 @@ def directors_totals(nds)
   while d_i < nds.count do
     d_n = nds[d_i][:name]
     puts name[d_i]
-    
+
     i += 1
   end
 
