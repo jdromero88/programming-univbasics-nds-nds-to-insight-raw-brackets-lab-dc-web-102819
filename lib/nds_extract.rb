@@ -32,7 +32,7 @@ def directors_totals(nds)
       result[d_n] += nds[d_i][:movies][m_i][:worldwide_gross]
       m_i += 1
     end
-    i += 1
+    d_i += 1
   end
   restult
   #
